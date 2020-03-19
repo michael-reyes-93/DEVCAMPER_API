@@ -43,6 +43,7 @@ app.use('/api/v1/bootcamps', bootcamps);
 app.use('/api/v1/courses', courses);
 app.use('/api/v1/auth', auth);
 
+// http://expressjs.com/en/guide/error-handling.html#error-handling
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
